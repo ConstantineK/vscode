@@ -190,7 +190,7 @@ export class ResourceViewer {
 			$(container)
 				.empty()
 				.span({
-					text: nls.localize('nativeBinaryError', "The file will not be displayed in the editor because it is either binary, very large or uses an unsupported text encoding.")
+					text: nls.localize('nativeBinaryError', "The file will not be displayed in the editor because it is either binary, very large, or uses an unsupported text encoding.")
 				});
 
 			if (metadataClb) {
